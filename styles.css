@@ -1,75 +1,133 @@
+
 @font-face {
     font-family: 'Bebas Neue';
     src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
+
 * {
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     padding: 0;
-}
-body{
-    background: linear-gradient(to bottom, #171a21, #232730);
-    color: #bdbdbd; 
-}
-.header{
-    margin: 100px;
-    text-align: center;
-}
-.FAQ{
-    font-size: 5em;
-    font-weight: bold;
-}
-.descFAQ{
-    font-size: 2em;
-    padding-top: 20px;
+    box-sizing: border-box;
 }
 
-.makepurchase{
-    padding: 20px;
-    margin:  10px;
-    
+
+body {
+    background: linear-gradient(to bottom, #171a21, #232730); 
+    color: #bdbdbd;
+    line-height: 1.6; 
 }
-.question{
+
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+.FAQ {
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.descFAQ {
+    font-size: 1.5em;
+    padding-top: 10px;
+    color: #dddddd;
+}
+
+
+.faq-section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #2b2f37;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.question {
     text-align: center;
     font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-decoration: underline; 
+    cursor: pointer; 
 }
-.purchaselist{
-    padding: 50px;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    border-bottom: 3px solid #4a4a4a;
+
+
+.purchaselist {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #bdbdbd;
+    border-top: 2px solid #4a4a4a;
+    margin-top: 10px;
 }
-.purchaselist b{
-    color: #999999;
+.purchaselist li {
+    margin-bottom: 15px;
 }
-.purchaselist a{
+.purchaselist b {
     color: #8888dd;
 }
+.purchaselist a {
+    color: #80bfff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.purchaselist a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 
-
-
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #171a21;
+    color: #dddddd;
+    margin-top: 30px;
+}
+.footer a {
+    color: #80bfff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
 
 
 @media screen and (max-width: 768px) {
     .FAQ {
-        font-size: 2em; 
+        font-size: 3em;
     }
-    .descFAQ{
+    .descFAQ {
+        font-size: 1.2em;
+    }
+    .question {
+        font-size: 1.5em;
+    }
+    .purchaselist {
         font-size: 1em;
     }
 }
 
 @media screen and (max-width: 480px) {
     .FAQ {
-        font-size: 1.5em; 
+        font-size: 2em; 
     }
-    .descFAQ{
+    .descFAQ {
         font-size: 1em;
     }
-    .makepurchase {
-        padding: 10px;
-        margin: 5px;
+    .question {
+        font-size: 1.2em;
+    }
+    .faq-section {
+        padding: 10px; 
+    }
+    .purchaselist {
+        font-size: 0.9em;
+        padding: 5px;
     }
 }
