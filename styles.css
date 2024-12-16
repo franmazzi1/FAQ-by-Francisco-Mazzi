@@ -13,25 +13,43 @@ body{
     color: #bdbdbd; 
 }
 .header{
-    margin: 20px;
+    margin: 100px;
     text-align: center;
 }
-h1{
-    font-size: 2.5em;
+.FAQ{
+    font-size: 5em;
     font-weight: bold;
 }
+.descFAQ{
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+.makepurchase{
+    padding: 20px;
+    margin:  10px
+}
+
+
+
 
 
 
 
 @media screen and (max-width: 768px) {
-    h1 {
+    .FAQ {
         font-size: 2em; 
+    }
+    .descFAQ{
+        font-size: 1em;
     }
 }
 
 @media screen and (max-width: 480px) {
-    h1 {
+    .FAQ {
         font-size: 1.5em; 
+    }
+    .descFAQ{
+        font-size: 1em;
     }
 }
