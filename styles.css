@@ -6,7 +6,7 @@
 
 
 * {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,11 +26,13 @@ body {
     margin-bottom: 20px;
 }
 .FAQ {
+    font-family: 'Bebas Neue';
     font-size: 4em;
     font-weight: bold;
     color: #ffffff;
 }
 .descFAQ {
+    font-family: 'Bebas Neue';
     font-size: 1.5em;
     padding-top: 10px;
     color: #dddddd;
@@ -46,6 +48,7 @@ body {
     padding: 20px;
 }
 .question {
+    font-family: 'Bebas Neue';
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -59,7 +62,7 @@ body {
 .purchaselist {
     padding: 10px 20px;
     font-size: 1.2em;
-    line-height: 1.8;
+    line-height: 1.5;
     color: #bdbdbd;
     border-top: 2px solid #4a4a4a;
     margin-top: 10px;
